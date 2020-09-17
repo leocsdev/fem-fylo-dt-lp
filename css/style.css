@@ -1,26 +1,38 @@
-/* RESETS */
-*, 
-*::before, 
-*::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+/* 
+Colors - Primary
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+Colors - Accent
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+
+Colors - Neutral
+- White: hsl(0, 0%, 100%)
+
+
+*/
+
+header {
+  background-color: hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
 }
 
-/* font-family: 'Raleway', sans-serif; */
+header a {
+  color: hsl(0, 0%, 100%);
+}
 
-
-
-/* BODY */
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
+/* FEATURES 1 */
+#section-features-1 {
+  /* background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%); */
 }
 
 
-
-/* UTILITY CLASS */
-.container {
-  margin: 0 auto;
-  max-width: 70rem; /* 1120px */
+/* FEATURES 2 */
+#section-features-2 {
+  /* background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%); */
 }
