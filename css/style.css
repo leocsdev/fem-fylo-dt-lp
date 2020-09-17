@@ -1,0 +1,26 @@
+/* RESETS */
+*, 
+*::before, 
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Raleway', sans-serif; */
+
+
+
+/* BODY */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+
+
+/* UTILITY CLASS */
+.container {
+  margin: 0 auto;
+  max-width: 70rem; /* 1120px */
+}
